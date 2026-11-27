@@ -19,9 +19,9 @@ function Navbar() {
   return (
     <div>
       <FadeIn>
-        <div className="flex max-w-[1240px] justify-between max-sm:justify-center items-center bg-[#131315] mx-auto px-8 py-4 max-lg:mx-2 rounded-[999px] mt-6">
+        <div className="flex max-w-[1240px] justify-between max-sm:justify-center items-center bg-[#F6F6F3] mx-auto px-8 py-4 max-lg:mx-2 rounded-[999px] mt-6">
           <span className="text-lg leading-6 -translate-x-[0.01em] ">
-            sai pranay.
+            Kaitlyn Cheng.
           </span>
           <div className="flex justify-end items-center gap-x-8 gap-y-8 max-md:gap-3 max-sm:hidden">
             {navlinkes.map((navlink) => (
@@ -38,7 +38,7 @@ function Navbar() {
         </div>
 
         <div className="flex w-full justify-center items-center sm:hidden">
-          <div className="flex justify-around items-center gap-x-8 gap-y-8 max-w-[1240px]  bg-[#131315] px-8 py-4 rounded-full fixed bottom-5 mx-auto">
+          <div className="flex justify-around items-center gap-x-8 gap-y-8 max-w-[1240px]  bg-[#F6F6F3] px-8 py-4 rounded-full fixed bottom-5 mx-auto">
             {navlinkes.map((navlink) => (
               <a
                 href={navlink.link}
